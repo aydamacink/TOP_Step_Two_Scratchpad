@@ -1,0 +1,22 @@
+h2 {
+	color: red;
+	text-align: center;
+
+}
+
+.button {
+	display: block;
+	margin: auto;
+	height: 25px;
+	width: 140px;
+	border-radius: 0;
+	color: white;
+	background-color: red;
+	border-radius: 0;
+	}
+
+.container {
+	margin-top: 50PX;
+	text-align: center;
+	display: block;
+}
