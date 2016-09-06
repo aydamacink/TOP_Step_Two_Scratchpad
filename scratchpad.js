@@ -17,6 +17,9 @@ function makeSquare(size, n) {
     $(square).mouseenter(function() {
         $(square).css("background-color", "yellow");
     });
+    $( "#clear" ).click(function() {
+        $(square).css("background-color", "blue");
+    });
     return square;
 }
 
