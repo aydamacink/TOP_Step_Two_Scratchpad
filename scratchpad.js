@@ -14,6 +14,9 @@ function makeSquare(size, n) {
     square.css("margin", margin);
     square.css("background-color", "blue");
     square.css("display", "inline-block");
+    $(square).mouseenter(function() {
+        $(square).css("background-color", "yellow");
+    });
     return square;
 }
 
@@ -23,7 +26,6 @@ function makeRow(number) {
     var rowContainer = $(document.createElement("div"));
     for (var i = 0; i < number; i++){
         var ourSquare = makeSquare(size, number);
-        $(ourSquare).addClass("colored-square");
         rowContainer.append(ourSquare);
     }
     return rowContainer;

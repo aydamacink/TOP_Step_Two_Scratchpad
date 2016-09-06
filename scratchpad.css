@@ -20,3 +20,7 @@ h2 {
 	text-align: center;
 	display: block;
 }
+
+.colored-square {
+	background-color: yellow;
+}
